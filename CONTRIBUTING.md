@@ -1,31 +1,25 @@
 # Contributing
 
-Pterodactyl does not accept Pull Requests (PRs) _for new functionality_ from users that are not currently part of the
-core project team. It has become overwhelming to try and give the proper time and attention that such complicated PRs
-tend to require — and deserve. As a result, it is in the project's best interest to limit the scope of work on
-new functionality to work done within the core project team.
+Pterodactyl is a community project. All contributions to both Panel and Wings are welcome, whether it's new features or bug fixes.
 
-PRs that address existing _bugs_ with a corresponding issue opened in our issue tracker will continue to be accepted
-and reviewed. Their scope is often significantly more targeted, and simply improving upon existing and well defined
-logic.
-
-### Responsible Disclosure
-
-This is a fairly in-depth project and makes use of a lot of parts. We strive to keep everything as secure as possible
+## Responsible Disclosure
+This is an in-depth project making use of many moving pieces. While we strive to keep everything as secure as possible
 and welcome you to take a look at the code provided in this project yourself. We do ask that you be considerate of
-others who are using the software and not publicly disclose security issues without contacting us first by email.
+others who are using the software and not publicly disclose security issues. Please see [`SECURITY.md`](/SECURITY.md)
+for information on how to report security issues to the team.
 
-We'll make a deal with you: if you contact us by email, and we fail to respond to you within a week you are welcome to
-publicly disclose whatever issue you have found. We understand how frustrating it is when you find something big and
-no one will respond to you. This holds us to a standard of providing prompt attention to any issues that arise and
-keeping this community safe.
-
-If you've found what you believe is a security issue please email `matthew@pterodactyl.io`. Please check
-[SECURITY.md](/SECURITY.md) for additional details.
-
-### Contact Us
-
+## Contact Us
 You can find us in a couple places online. First and foremost, we're active right here on GitHub. If you encounter a
-bug or other problems, open an issue on here for us to take a look at it. We also accept feature requests here as well.
+bug or other problems, open an issue on here for us to take a look at it. Please make use of
+our [GitHub Discussions](https://github.com/orgs/pterodactyl/discussions/categories/feature-requests)
+for any feature requests, general questions, or help with the software.
 
 You can also find us on [Discord](https://discord.gg/pterodactyl).
+
+## AI-assisted contributions
+AI and LLMs are awesome, they can truly 10x your productivity, help explore a large codebase, help with large changes, and write lots of test coverage. That said, they do not replace your responsibility for the result and output of an LLM tool.
+
+- Please keep the conversation in your own voice. Review, rewrite generated code comments, issue reports, and pull requests descriptions so they reflect the intent of what you mean.
+- Keep ownership of the of all decisions made, you have to understand every change, and you must verify the behavior with appropriate test coverage at the bare minimum, your code should reflect the style of the codebase.
+- Do not copy paste LLM output verbatim into the codebase and expect a contribution, you will treat generated output as a draft, and you, the human, are expected to check it's claims, adapt it to the repository, and remove anything that you yourself cannot justify. Issues that are entirely unreviewed LLM output will be closed without review.
+- AI-assisted contributions follow the same standards for quality, correctness, testing, etc as any other contribution.
